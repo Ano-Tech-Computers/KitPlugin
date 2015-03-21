@@ -1,0 +1,11 @@
+name: KitPlugin
+main: no.atc.floyd.bukkit.kit.KitPlugin
+version: 1.31
+website: http://minecraft.atc.no/plugins
+author: FloydATC
+description: >
+        Dispense kits to players
+commands:
+  kit:
+    description: Show a list of kit names or get a named kit
+    usage: /<command> [<kit>] [<players>]
